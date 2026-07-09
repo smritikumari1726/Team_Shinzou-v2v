@@ -1,0 +1,6 @@
+{
+  "name": "ForHer",
+  "description": "An AI-powered economic equity portal for women, offering bias detection in job descriptions, financial guides, and loan schemes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
