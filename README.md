@@ -96,7 +96,7 @@ ForHer/
 ---
 
 ## 🔗URL
-https://forher-1.vercel.app/
+https://forher-u928.onrender.com/
 
 ## 🚀 Modules
 
