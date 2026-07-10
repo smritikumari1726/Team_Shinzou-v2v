@@ -8,6 +8,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "motion/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FloatingChatbot from "./components/FloatingChatbot";
 
 // Lazy load all page components for massive performance boost
 const Hero = lazy(() => import("./components/Hero"));
@@ -85,6 +86,7 @@ export default function App() {
         </AnimatePresence>
       </main>
 
+      <FloatingChatbot />
       <Footer />
     </div>
   );

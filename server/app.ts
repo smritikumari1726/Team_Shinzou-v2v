@@ -15,4 +15,8 @@ app.post("/api/analyze-job", analyzeJobHandler);
 // 2. HerFinance Assistant Chatbot Route
 app.post("/api/chat", chatHandler);
 
+// 3. General Site Guidance Chatbot Route
+import generalChatHandler from "../api/general-chat.js";
+app.post("/api/general-chat", generalChatHandler);
+
 export default app;
