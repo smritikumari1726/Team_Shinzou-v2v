@@ -135,7 +135,7 @@ A conversational AI assistant that helps women discover government loans and gra
 
 ## 👥 Team
 
-**Team Name:** *Your Team Name*
+**Team Shinzou** 
 
 ### Members
 - Smriti Kumari
