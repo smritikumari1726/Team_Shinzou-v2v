@@ -118,13 +118,13 @@ export default function FloatingChatbot() {
                     key={msg.id}
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className={\`flex \${isAssistant ? "justify-start" : "justify-end"}\`}
+                    className={`flex ${isAssistant ? "justify-start" : "justify-end"}`}
                   >
-                    <div className={\`max-w-[85%] rounded-2xl p-3 text-sm leading-relaxed shadow-sm \${
+                    <div className={`max-w-[85%] rounded-2xl p-3 text-sm leading-relaxed shadow-sm ${
                       isAssistant 
                         ? "bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-100 dark:border-slate-700 rounded-tl-sm whitespace-pre-line" 
                         : "bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white rounded-tr-sm"
-                    }\`}>
+                    }`}>
                       {msg.parts[0].text}
                     </div>
                   </motion.div>
