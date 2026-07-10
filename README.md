@@ -98,7 +98,7 @@ ForHer/
 ## 🔗URL
 https://forher-u928.onrender.com/
 
-##video link
+## live-demo link
 https://drive.google.com/file/d/1rbODbADTYMoFa1Ofy0Hf5_rAgT0aEPcT/view?usp=sharing
 ## 🚀 Modules
 
